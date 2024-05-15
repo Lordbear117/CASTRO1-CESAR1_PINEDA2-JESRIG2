@@ -1,4 +1,4 @@
-package com.backend.parcial.model;
+package com.backend.parcial.entity;
 
 public abstract class ModelTest {
 }
