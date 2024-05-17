@@ -1,0 +1,14 @@
+[2024-05-16 22:13:06] [ ERROR] [OdontologoDaoH2:93] Columna "matricula" no encontrada
+Column "matricula" not found [42122-224]
+[2024-05-16 22:13:07] [ INFO ] [OdontologoDaoH2:104] Listado de todos los odontologos: []
+[2024-05-16 22:13:34] [ ERROR] [OdontologoDaoH2:93] Columna "matricula" no encontrada
+Column "matricula" not found [42122-224]
+[2024-05-16 22:13:34] [ INFO ] [OdontologoDaoH2:104] Listado de todos los odontologos: []
+[2024-05-16 22:14:00] [ ERROR] [OdontologoDaoH2:93] Columna "matricula" no encontrada
+Column "matricula" not found [42122-224]
+[2024-05-16 22:14:00] [ INFO ] [OdontologoDaoH2:104] Listado de todos los odontologos: []
+[2024-05-16 22:14:55] [ INFO ] [OdontologoDaoH2:104] Listado de todos los odontologos: [Id: 1 - Matricula: 123456 - Nombre: Jose - Apellido: Ramos, Id: 2 - Matricula: 654321 - Nombre: Luis - Apellido: Lopez]
+[2024-05-16 22:26:21] [ INFO ] [OdontologoDaoH2:104] Listado de todos los odontologos: [Id: 1 - Matricula: 123456 - Nombre: Jose - Apellido: Ramos, Id: 2 - Matricula: 654321 - Nombre: Luis - Apellido: Lopez]
+[2024-05-16 22:26:22] [ INFO ] [OdontologoDaoH2:40] Se ha registrado al odontologo: Id: 3 - Matricula: 123456 - Nombre: Nombre - Apellido: Apellido
+[2024-05-16 22:27:07] [ INFO ] [OdontologoDaoH2:104] Listado de todos los odontologos: [Id: 1 - Matricula: 123456 - Nombre: Jose - Apellido: Ramos, Id: 2 - Matricula: 654321 - Nombre: Luis - Apellido: Lopez, Id: 3 - Matricula: 123456 - Nombre: Nombre - Apellido: Apellido]
+[2024-05-16 22:27:08] [ INFO ] [OdontologoDaoH2:40] Se ha registrado al odontologo: Id: 4 - Matricula: 123456 - Nombre: Nombre - Apellido: Apellido
