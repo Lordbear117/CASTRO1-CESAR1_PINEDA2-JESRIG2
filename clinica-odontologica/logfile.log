@@ -1,0 +1,6 @@
+2024-06-16 23:21:12 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-17 00:28:29 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-17 00:31:51 INFO  OdontologoService:55 - Listado de todos los Odontologo: []
+2024-06-17 00:31:51 WARN  OdontologoService:58 - No se encontraron Odontologo
+2024-06-17 00:34:49 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 1,  "numMatricula": 123,  "nombre": "Juan",  "apellido": "Lopez"}
+2024-06-17 00:35:01 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 123,    "nombre": "Juan",    "apellido": "Lopez"  }]
