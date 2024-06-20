@@ -3,7 +3,6 @@ package com.backend.clinica_odontologica.service;
 import com.backend.clinica_odontologica.dto.entrada.DomicilioEntradaDto;
 import com.backend.clinica_odontologica.dto.entrada.PacienteDtoEntrada;
 import com.backend.clinica_odontologica.dto.salida.PacienteDtoSalida;
-import com.backend.clinica_odontologica.service.IPacienteService;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Order;
