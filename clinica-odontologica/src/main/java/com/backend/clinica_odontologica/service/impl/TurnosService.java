@@ -108,7 +108,7 @@ public class TurnosService implements ITurnoService {
         turnoExistente.setPaciente(modelMapper.map(paciente, Paciente.class));
 
         turnoExistente = turnoRepository.save(turnoExistente);
-        LOGGER.info("Turno actualizado con éxito: " + JsonPrinter.toString(turnoExistente));
+        LOGGER.info("Turno actualizado con exito: " + JsonPrinter.toString(turnoExistente));
         return convertToDto(turnoExistente);
     }
 
@@ -117,7 +117,7 @@ public class TurnosService implements ITurnoService {
         if (turnoRepository.existsById(id)) {
             turnoRepository.deleteById(id);
         } else {
-            LOGGER.warn("No se encontró el turno con ID: " + id);
+            LOGGER.warn("No se encontro el turno con ID: " + id);
             throw new ResourceNotFoundException("No existe el registro con turno ID: " + id);
         }
     }

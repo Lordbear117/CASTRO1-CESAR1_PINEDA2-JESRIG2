@@ -32,7 +32,7 @@ public class PacienteService implements IPacienteService {
     public PacienteDtoSalida buscarPaciente(Long id) throws ResourceNotFoundException {
         Paciente paciente = pacienteRepository.findById(id).orElse(null);
         if (paciente == null) {
-            throw new ResourceNotFoundException("No existe registro de paciente con ID " + id);
+            throw new ResourceNotFoundException("No existe registro de paciente con ID: " + id);
         }
 
         PacienteDtoSalida pacienteDtoSalida = modelMapper.map(paciente, PacienteDtoSalida.class);
@@ -74,7 +74,7 @@ public class PacienteService implements IPacienteService {
     public PacienteDtoSalida actualizarPaciente(Long id, PacienteDtoEntrada pacienteDtoEntrada) throws ResourceNotFoundException {
         Paciente pacienteExistente = pacienteRepository.findById(id).orElse(null);
         if (pacienteExistente == null) {
-            throw new ResourceNotFoundException("No existe registro de paciente con ID " + id);
+            throw new ResourceNotFoundException("No existe registro de paciente con ID: " + id);
         }
 
         modelMapper.map(pacienteDtoEntrada, pacienteExistente);
@@ -91,8 +91,8 @@ public class PacienteService implements IPacienteService {
         if (pacienteRepository.existsById(id)) {
             pacienteRepository.deleteById(id);
         } else {
-            LOGGER.warn("No se encontró el paciente con ID: " + id);
-            throw new ResourceNotFoundException("No existe registro de paciente con ID " + id);
+            LOGGER.warn("No se encontro el paciente con ID: " + id);
+            throw new ResourceNotFoundException("No existe registro de paciente con ID: " + id);
         }
     }
 

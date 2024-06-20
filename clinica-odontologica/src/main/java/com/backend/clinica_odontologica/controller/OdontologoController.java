@@ -4,12 +4,16 @@ import com.backend.clinica_odontologica.dto.entrada.OdontologoDtoEntrada;
 import com.backend.clinica_odontologica.dto.salida.OdontologoDtoSalida;
 import com.backend.clinica_odontologica.exceptions.ResourceNotFoundException;
 import com.backend.clinica_odontologica.service.IOdontologoService;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@CrossOrigin
 @RequestMapping("odontologos")
 public class OdontologoController {
 
@@ -21,27 +25,32 @@ public class OdontologoController {
     }
 
     @PostMapping("/registrar")
-    public OdontologoDtoSalida registrarOdontologo(@RequestBody OdontologoDtoEntrada odontologoDtoEntrada) {
-        return odontologoService.guardarOdontologo(odontologoDtoEntrada);
+    public ResponseEntity<OdontologoDtoSalida> registrarOdontologo(@RequestBody @Valid OdontologoDtoEntrada odontologoDtoEntrada) {
+        //return odontologoService.guardarOdontologo(odontologoDtoEntrada);
+        return new ResponseEntity<>(odontologoService.guardarOdontologo(odontologoDtoEntrada), HttpStatus.CREATED);
     }
 
     @GetMapping("/listar")
-    public List<OdontologoDtoSalida> listarOdontologos() {
-        return odontologoService.listarTodosLosOdontologos();
+    public ResponseEntity<List<OdontologoDtoSalida>> listarOdontologos() {
+        //return odontologoService.listarTodosLosOdontologos();
+        return new ResponseEntity<>(odontologoService.listarTodosLosOdontologos(), HttpStatus.OK);
     }
 
     @GetMapping("/{id}")
-    public OdontologoDtoSalida buscarOdontologo(@PathVariable Long id) throws ResourceNotFoundException {
-        return odontologoService.buscarOdontologo(id);
+    public ResponseEntity<OdontologoDtoSalida> buscarOdontologo(@PathVariable Long id) throws ResourceNotFoundException {
+        //return odontologoService.buscarOdontologo(id);
+        return new ResponseEntity<>(odontologoService.buscarOdontologo(id), HttpStatus.OK);
     }
 
     @PutMapping("/{id}")
-    public OdontologoDtoSalida actualizarOdontologo(@PathVariable Long id, @RequestBody OdontologoDtoEntrada odontologoDtoEntrada) throws ResourceNotFoundException {
-        return odontologoService.actualizarOdontologo(id, odontologoDtoEntrada);
+    public ResponseEntity<OdontologoDtoSalida> actualizarOdontologo(@PathVariable Long id, @RequestBody @Valid OdontologoDtoEntrada odontologoDtoEntrada) throws ResourceNotFoundException {
+        //return odontologoService.actualizarOdontologo(id, odontologoDtoEntrada);
+        return new ResponseEntity<>(odontologoService.actualizarOdontologo(id, odontologoDtoEntrada), HttpStatus.OK);
     }
 
     @DeleteMapping("/{id}")
-    public void eliminarOdontologo(@PathVariable Long id) throws ResourceNotFoundException {
+    public ResponseEntity<?> eliminarOdontologo(@PathVariable Long id) throws ResourceNotFoundException {
         odontologoService.eliminarOdontologo(id);
+        return new ResponseEntity<>("Odontologo eliminado correctamente", HttpStatus.NO_CONTENT);
     }
 }

@@ -31,7 +31,7 @@ public class OdontologoService implements IOdontologoService {
     public OdontologoDtoSalida buscarOdontologo(Long id) throws ResourceNotFoundException {
         Odontologo odontologo = odontologoRepository.findById(id).orElse(null);
         if (odontologo == null) {
-            throw new ResourceNotFoundException("No existe registro de odontologo con ID " + id);
+            throw new ResourceNotFoundException("No existe registro de odontologo con ID: " + id);
         }
         LOGGER.info("Odontologo encontrado: " + JsonPrinter.toString(odontologo));
         return modelMapper.map(odontologo, OdontologoDtoSalida.class);
@@ -55,7 +55,7 @@ public class OdontologoService implements IOdontologoService {
         LOGGER.info("Listado de todos los Odontologo: " + JsonPrinter.toString(odontologos));
 
         if (odontologos.isEmpty()) {
-            LOGGER.warn("No se encontraron Odontologo");
+            LOGGER.warn("No se encontraron Odontologos");
         }
 
         return odontologos;
@@ -65,7 +65,7 @@ public class OdontologoService implements IOdontologoService {
     public OdontologoDtoSalida actualizarOdontologo(Long id, OdontologoDtoEntrada odontologoDtoEntrada) throws ResourceNotFoundException {
         Odontologo odontologoExistente = odontologoRepository.findById(id).orElse(null);
         if (odontologoExistente == null) {
-            throw new ResourceNotFoundException("No existe registro de odontologo con id " + id);
+            throw new ResourceNotFoundException("No existe registro de odontologo con ID: " + id);
         }
 
         odontologoExistente.setNumMatricula(odontologoDtoEntrada.getNumMatricula());
@@ -85,7 +85,7 @@ public class OdontologoService implements IOdontologoService {
             odontologoRepository.deleteById(id);
         } else {
             LOGGER.warn("No se encontró el Odontologo con ID: " + id);
-            throw new ResourceNotFoundException("No existe registro de odontologo con ID " + id);
+            throw new ResourceNotFoundException("No existe registro de odontologo con ID: " + id);
         }
     }
 }
