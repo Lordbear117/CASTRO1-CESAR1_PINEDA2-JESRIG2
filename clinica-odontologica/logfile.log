@@ -104,3 +104,16 @@
 2024-06-20 01:16:43 INFO  ClinicaOdontologicaApplication:16 - Application is running
 2024-06-20 01:26:25 INFO  ClinicaOdontologicaApplication:16 - Application is running
 2024-06-20 01:30:15 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 09:45:07 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 1,  "numMatricula": 10001,  "nombre": "Cesar",  "apellido": "Castro"}
+2024-06-20 09:45:08 INFO  OdontologoService:36 - Odontologo encontrado: {  "id": 1,  "numMatricula": 10001,  "nombre": "Cesar",  "apellido": "Castro"}
+2024-06-20 09:45:08 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 10001,    "nombre": "Cesar",    "apellido": "Castro"  }]
+2024-06-20 09:49:58 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 1,  "numMatricula": 10001,  "nombre": "Cesar",  "apellido": "Castro"}
+2024-06-20 09:49:58 INFO  OdontologoService:36 - Odontologo encontrado: {  "id": 1,  "numMatricula": 10001,  "nombre": "Cesar",  "apellido": "Castro"}
+2024-06-20 09:49:58 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 10001,    "nombre": "Cesar",    "apellido": "Castro"  }]
+2024-06-20 09:54:31 INFO  PacienteService:52 - Paciente guardado: {  "id": 1,  "dni": 10001,  "nombre": "Julio",  "apellido": "Pino",  "domicilioDtoSalida": {    "id": 1,    "calle": "Lomas Mar",    "numero": 100,    "localidad": "Lomas",    "provincia": "Coyuca"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 09:54:31 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 10001,    "nombre": "Julio",    "apellido": "Pino",    "domicilioDtoSalida": {      "id": 1,      "calle": "Lomas Mar",      "numero": 100,      "localidad": "Lomas",      "provincia": "Coyuca"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 09:55:51 INFO  TurnosService:85 - Listado de todos los turnos: {}[]
+2024-06-20 09:55:51 WARN  TurnosService:88 - No se encontraron turnos
+2024-06-20 09:55:52 WARN  TurnosService:120 - No se encontro el turno con ID: 1
+2024-06-20 09:55:52 INFO  TurnosService:85 - Listado de todos los turnos: {}[]
+2024-06-20 09:55:52 WARN  TurnosService:88 - No se encontraron turnos
