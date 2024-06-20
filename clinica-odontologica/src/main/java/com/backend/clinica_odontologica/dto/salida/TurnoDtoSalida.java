@@ -19,4 +19,7 @@ public class TurnoDtoSalida {
         this.pacienteDtoSalida = pacienteDtoSalida;
     }
 
+    public LocalDateTime getFechaHora() {
+        return fechaYHora;
+    }
 }
