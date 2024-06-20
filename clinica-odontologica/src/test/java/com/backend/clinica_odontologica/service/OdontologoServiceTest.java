@@ -3,7 +3,6 @@ package com.backend.clinica_odontologica.service;
 import com.backend.clinica_odontologica.dto.entrada.OdontologoDtoEntrada;
 import com.backend.clinica_odontologica.dto.salida.OdontologoDtoSalida;
 import com.backend.clinica_odontologica.exceptions.ResourceNotFoundException;
-import com.backend.clinica_odontologica.service.IOdontologoService;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;

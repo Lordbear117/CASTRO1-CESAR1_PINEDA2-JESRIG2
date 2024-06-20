@@ -4,6 +4,9 @@ import com.backend.clinica_odontologica.dto.entrada.TurnoDtoEntrada;
 import com.backend.clinica_odontologica.dto.salida.TurnoDtoSalida;
 import com.backend.clinica_odontologica.exceptions.ResourceNotFoundException;
 import com.backend.clinica_odontologica.service.ITurnoService;
+
+import jakarta.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -20,7 +23,7 @@ public class TurnoController {
     public TurnoController(ITurnoService turnoService) { this.turnoService = turnoService; }
 
     @PostMapping("/registrar")
-    public TurnoDtoSalida registarTurno(@RequestBody TurnoDtoEntrada turnoDtoEntrada) throws ResourceNotFoundException {
+    public TurnoDtoSalida registarTurno(@RequestBody @Valid TurnoDtoEntrada turnoDtoEntrada) throws ResourceNotFoundException {
         return turnoService.guardarTurno(turnoDtoEntrada);
     }
 
@@ -35,7 +38,7 @@ public class TurnoController {
     }
 
     @PutMapping("/{id}")
-    public TurnoDtoSalida actualizarTurno(@PathVariable Long id, @RequestBody TurnoDtoEntrada turnoDtoEntrada) throws ResourceNotFoundException {
+    public TurnoDtoSalida actualizarTurno(@PathVariable Long id, @RequestBody @Valid TurnoDtoEntrada turnoDtoEntrada) throws ResourceNotFoundException {
         return turnoService.actualizarTurno(id, turnoDtoEntrada);
     }
 

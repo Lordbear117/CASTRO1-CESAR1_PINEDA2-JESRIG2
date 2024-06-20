@@ -104,3 +104,84 @@
 2024-06-20 01:16:43 INFO  ClinicaOdontologicaApplication:16 - Application is running
 2024-06-20 01:26:25 INFO  ClinicaOdontologicaApplication:16 - Application is running
 2024-06-20 01:30:15 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 10:11:58 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 10:12:07 INFO  OdontologoService:55 - Listado de todos los Odontologo: []
+2024-06-20 10:12:07 WARN  OdontologoService:58 - No se encontraron Odontologos
+2024-06-20 10:12:15 INFO  OdontologoService:55 - Listado de todos los Odontologo: []
+2024-06-20 10:12:15 WARN  OdontologoService:58 - No se encontraron Odontologos
+2024-06-20 10:12:20 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 1,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:26 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 2,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:27 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 3,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:27 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 4,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:27 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 5,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:28 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 6,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:28 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 7,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:28 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 8,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:28 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 9,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:28 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 10,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:28 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 11,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:28 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 12,  "numMatricula": 123,  "nombre": "sdaas",  "apellido": "sad"}
+2024-06-20 10:12:31 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 2,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 3,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 4,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 5,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 6,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 7,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 8,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 9,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 10,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 11,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 12,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  }]
+2024-06-20 10:12:39 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 2,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 3,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 4,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 5,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 6,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 7,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 8,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 9,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 10,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 11,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  },  {    "id": 12,    "numMatricula": 123,    "nombre": "sdaas",    "apellido": "sad"  }]
+2024-06-20 10:13:18 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 10:13:27 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 1,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:29 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 2,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:30 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 3,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:30 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 4,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:31 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 5,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:32 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 6,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:32 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 7,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:33 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 8,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:33 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 9,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:34 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 10,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:35 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 11,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:35 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 12,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:36 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 13,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:37 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 14,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 10:13:38 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 2,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 3,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 4,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 5,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 6,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 7,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 8,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 9,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 10,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 11,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 12,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 13,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  },  {    "id": 14,    "numMatricula": 123,    "nombre": "AAA",    "apellido": "BBB"  }]
+2024-06-20 11:39:26 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 11:43:27 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 11:48:04 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 11:48:30 INFO  OdontologoService:55 - Listado de todos los Odontologo: []
+2024-06-20 11:48:30 WARN  OdontologoService:58 - No se encontraron Odontologos
+2024-06-20 12:00:25 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 12:01:12 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 12:01:26 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 1,  "numMatricula": 20,  "nombre": "qawse",  "apellido": "Lopez"}
+2024-06-20 12:07:14 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 12:13:56 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 12:15:07 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 12:15:20 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 1,  "numMatricula": 20,  "nombre": "sdsd",  "apellido": "Lopez"}
+2024-06-20 12:23:48 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 12:24:41 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 1,  "numMatricula": 1,  "nombre": "ABC",  "apellido": "DFG"}
+2024-06-20 12:24:56 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 1,    "nombre": "ABC",    "apellido": "DFG"  }]
+2024-06-20 12:25:14 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 2,  "numMatricula": 2,  "nombre": "was",  "apellido": "DFG"}
+2024-06-20 12:25:22 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 1,    "nombre": "ABC",    "apellido": "DFG"  },  {    "id": 2,    "numMatricula": 2,    "nombre": "was",    "apellido": "DFG"  }]
+2024-06-20 12:25:35 INFO  OdontologoService:36 - Odontologo encontrado: {  "id": 1,  "numMatricula": 1,  "nombre": "ABC",  "apellido": "DFG"}
+2024-06-20 12:25:38 INFO  OdontologoService:36 - Odontologo encontrado: {  "id": 1,  "numMatricula": 1,  "nombre": "ABC",  "apellido": "DFG"}
+2024-06-20 12:25:47 INFO  OdontologoService:36 - Odontologo encontrado: {  "id": 2,  "numMatricula": 2,  "nombre": "was",  "apellido": "DFG"}
+2024-06-20 12:27:15 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 1,    "nombre": "ABC",    "apellido": "DFG"  },  {    "id": 2,    "numMatricula": 2,    "nombre": "was",    "apellido": "DFG"  }]
+2024-06-20 12:27:22 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 1,    "nombre": "ABC",    "apellido": "DFG"  },  {    "id": 2,    "numMatricula": 2,    "nombre": "was",    "apellido": "DFG"  }]
+2024-06-20 12:28:16 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 1,    "nombre": "ABC",    "apellido": "DFG"  },  {    "id": 2,    "numMatricula": 2,    "nombre": "was",    "apellido": "DFG"  }]
+2024-06-20 12:28:43 INFO  OdontologoService:76 - Odontologo actualizado: {  "id": 1,  "numMatricula": 1,  "nombre": "dsfsdf",  "apellido": "DFG"}
+2024-06-20 12:28:58 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 1,    "nombre": "dsfsdf",    "apellido": "DFG"  },  {    "id": 2,    "numMatricula": 2,    "nombre": "was",    "apellido": "DFG"  }]
+2024-06-20 12:29:19 INFO  OdontologoService:55 - Listado de todos los Odontologo: [  {    "id": 1,    "numMatricula": 1,    "nombre": "dsfsdf",    "apellido": "DFG"  }]
+2024-06-20 12:29:32 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 12:29:32 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 12:30:10 INFO  PacienteService:52 - Paciente guardado: {  "id": 1,  "dni": 12345678,  "nombre": "Cesar",  "apellido": "Castro",  "domicilioDtoSalida": {    "id": 1,    "calle": "Buena",    "numero": 2001,    "localidad": "Cul",    "provincia": "Sin"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 12:30:22 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 12345678,    "nombre": "Cesar",    "apellido": "Castro",    "domicilioDtoSalida": {      "id": 1,      "calle": "Buena",      "numero": 2001,      "localidad": "Cul",      "provincia": "Sin"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 12:32:56 INFO  PacienteService:52 - Paciente guardado: {  "id": 2,  "dni": 12345679,  "nombre": "Cesar",  "apellido": "Castro",  "domicilioDtoSalida": {    "id": 2,    "calle": "Buena",    "numero": 2001,    "localidad": "Cul",    "provincia": "Sin"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 12:33:01 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 12345678,    "nombre": "Cesar",    "apellido": "Castro",    "domicilioDtoSalida": {      "id": 1,      "calle": "Buena",      "numero": 2001,      "localidad": "Cul",      "provincia": "Sin"    },    "fechaAlta": "2024-06-20"  },  {    "id": 2,    "dni": 12345679,    "nombre": "Cesar",    "apellido": "Castro",    "domicilioDtoSalida": {      "id": 2,      "calle": "Buena",      "numero": 2001,      "localidad": "Cul",      "provincia": "Sin"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 12:33:10 INFO  PacienteService:41 - Paciente encontrado: {  "id": 1,  "dni": 12345678,  "nombre": "Cesar",  "apellido": "Castro",  "domicilioDtoSalida": {    "id": 1,    "calle": "Buena",    "numero": 2001,    "localidad": "Cul",    "provincia": "Sin"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 12:33:14 INFO  PacienteService:41 - Paciente encontrado: {  "id": 2,  "dni": 12345679,  "nombre": "Cesar",  "apellido": "Castro",  "domicilioDtoSalida": {    "id": 2,    "calle": "Buena",    "numero": 2001,    "localidad": "Cul",    "provincia": "Sin"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 12:33:36 INFO  PacienteService:84 - Paciente actualizado: {  "id": 1,  "dni": 87654321,  "nombre": "Cesar",  "apellido": "Castro",  "domicilioDtoSalida": {    "id": 1,    "calle": "Buena",    "numero": 2001,    "localidad": "Cul",    "provincia": "Sin"  },  "fechaAlta": "2024-06-20"}
+2024-06-20 12:33:46 INFO  PacienteService:65 - Listado de todos los pacientes: {}[  {    "id": 1,    "dni": 87654321,    "nombre": "Cesar",    "apellido": "Castro",    "domicilioDtoSalida": {      "id": 1,      "calle": "Buena",      "numero": 2001,      "localidad": "Cul",      "provincia": "Sin"    },    "fechaAlta": "2024-06-20"  },  {    "id": 2,    "dni": 12345679,    "nombre": "Cesar",    "apellido": "Castro",    "domicilioDtoSalida": {      "id": 2,      "calle": "Buena",      "numero": 2001,      "localidad": "Cul",      "provincia": "Sin"    },    "fechaAlta": "2024-06-20"  }]
+2024-06-20 12:37:03 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 12:37:08 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 1,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 12:37:12 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 2,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 12:37:13 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 3,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 12:37:14 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 4,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 12:37:14 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 5,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 12:37:15 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 6,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 12:37:15 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 7,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 12:37:16 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 8,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 12:37:16 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 9,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}

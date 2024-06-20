@@ -20,7 +20,7 @@ import static org.junit.jupiter.api.Assertions.*;
 @SpringBootTest
 @TestPropertySource(locations = "classpath:application-test.properties")
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-public class PacienteServiceTest {
+class PacienteServiceTest {
 
     @Autowired
     IPacienteService pacienteService;
