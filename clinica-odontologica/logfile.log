@@ -117,3 +117,11 @@
 2024-06-20 09:55:52 WARN  TurnosService:120 - No se encontro el turno con ID: 1
 2024-06-20 09:55:52 INFO  TurnosService:85 - Listado de todos los turnos: {}[]
 2024-06-20 09:55:52 WARN  TurnosService:88 - No se encontraron turnos
+2024-06-20 12:57:32 INFO  PacienteService:52 - Paciente guardado: {  "id": 1,  "dni": 1001,  "nombre": "Luis",  "apellido": "Garcia",  "domicilioDtoSalida": {    "id": 1,    "calle": "Calle",    "numero": 123,    "localidad": "Localidad",    "provincia": "Provincia"  },  "fechaAlta": "2024-06-22"}
+2024-06-20 12:57:32 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 1,  "numMatricula": 10001,  "nombre": "Luis",  "apellido": "Salas"}
+2024-06-20 12:57:32 INFO  OdontologoService:36 - Odontologo encontrado: {  "id": 1,  "numMatricula": 10001,  "nombre": "Luis",  "apellido": "Salas"}
+2024-06-20 12:57:32 INFO  PacienteService:41 - Paciente encontrado: {  "id": 1,  "dni": 1001,  "nombre": "Luis",  "apellido": "Garcia",  "domicilioDtoSalida": {    "id": 1,    "calle": "Calle",    "numero": 123,    "localidad": "Localidad",    "provincia": "Provincia"  },  "fechaAlta": "2024-06-22"}
+2024-06-20 12:57:32 INFO  TurnosService:74 - Turno guardado: {  "id": 1,  "fechaYHora": "2024-06-20 15:00",  "odontologo": {    "id": 1,    "numMatricula": 10001,    "nombre": "Luis",    "apellido": "Salas"  },  "paciente": {    "id": 1,    "dni": 1001,    "nombre": "Luis",    "apellido": "Garcia",    "fechaAlta": "2024-06-22",    "domicilio": {      "id": 1,      "calle": "Calle",      "numero": 123,      "localidad": "Localidad",      "provincia": "Provincia"    }  }}
+2024-06-20 12:57:32 INFO  TurnosService:85 - Listado de todos los turnos: {}[  {    "id": 1,    "fechaYHora": "2024-06-20 15:00",    "odontologoDtoSalida": {      "id": 1,      "numMatricula": 10001,      "nombre": "Luis",      "apellido": "Salas"    },    "pacienteDtoSalida": {      "id": 1,      "dni": 1001,      "nombre": "Luis",      "apellido": "Garcia",      "domicilioDtoSalida": {        "id": 1,        "calle": "Calle",        "numero": 123,        "localidad": "Localidad",        "provincia": "Provincia"      },      "fechaAlta": "2024-06-22"    }  }]
+2024-06-20 12:57:33 INFO  TurnosService:85 - Listado de todos los turnos: {}[]
+2024-06-20 12:57:33 WARN  TurnosService:88 - No se encontraron turnos
