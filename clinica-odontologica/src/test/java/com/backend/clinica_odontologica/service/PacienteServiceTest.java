@@ -1,4 +1,4 @@
-package com.backend.clinica_odontologica.service.impl;
+package com.backend.clinica_odontologica.service;
 
 import com.backend.clinica_odontologica.dto.entrada.DomicilioEntradaDto;
 import com.backend.clinica_odontologica.dto.entrada.PacienteDtoEntrada;
@@ -23,7 +23,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class PacienteServiceTest {
 
     @Autowired
-    private PacienteService pacienteService;
+    IPacienteService pacienteService;
 
     @Test
     @Order(1)

@@ -1,4 +1,4 @@
-package com.backend.clinica_odontologica.service.impl;
+package com.backend.clinica_odontologica.service;
 
 import com.backend.clinica_odontologica.dto.entrada.DomicilioEntradaDto;
 import com.backend.clinica_odontologica.dto.entrada.OdontologoDtoEntrada;
@@ -24,13 +24,13 @@ import static org.junit.jupiter.api.Assertions.*;
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class TurnosServiceTest {
     @Autowired
-    private PacienteService pacienteService;
+    IPacienteService pacienteService;
 
     @Autowired
-    private OdontologoService odontologoService;
+    IOdontologoService odontologoService;
 
     @Autowired
-    private TurnosService turnosService;
+    ITurnoService turnosService;
 
     @Test
     @Order(1)
