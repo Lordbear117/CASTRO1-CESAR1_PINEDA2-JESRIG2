@@ -185,3 +185,7 @@
 2024-06-20 12:37:15 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 7,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
 2024-06-20 12:37:16 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 8,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
 2024-06-20 12:37:16 INFO  OdontologoService:44 - Odontologo guardado: {  "id": 9,  "numMatricula": 123,  "nombre": "AAA",  "apellido": "BBB"}
+2024-06-20 12:40:14 INFO  ClinicaOdontologicaApplication:16 - Application is running
+2024-06-20 12:40:20 INFO  PacienteService:65 - Listado de todos los pacientes: {}[]
+2024-06-20 12:40:20 WARN  PacienteService:68 - No se encontraron pacientes
+2024-06-20 12:40:28 INFO  PacienteService:52 - Paciente guardado: {  "id": 1,  "dni": 12345679,  "nombre": "Cesar",  "apellido": "Castro",  "domicilioDtoSalida": {    "id": 1,    "calle": "Buena",    "numero": 2001,    "localidad": "Cul",    "provincia": "Sin"  },  "fechaAlta": "2024-06-20"}
